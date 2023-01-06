@@ -26,8 +26,8 @@
 }
 .cover .capa{
     position: fixed;
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 115%;
+    min-width: 120%;
     background-color: rgba(1, 1, 15, 0.692);
     position: absolute;
 }
@@ -43,6 +43,7 @@ header ul{
     list-style: none;
     gap: 20px;
     cursor: pointer;
+    flex-wrap: wrap;
     
 }
 header ul li:hover{
@@ -114,6 +115,10 @@ header ul li{
     margin-left: 0.1rem;
     animation: blink 1s infinite;
 }
+#hbg{
+    display: none;
+}
+
 
 
 @keyframes blink{
@@ -122,4 +127,29 @@ header ul li{
     50%{background-color: transparent;}
     99%{background-color: transparent;}
     100%{background-color: #ccc;}
+}
+
+@media(max-width:506px){
+    .menu{
+        display: none;
+    }
+    #Container .textofixo{
+        font-size: 40px;
+    }
+    .logop img{
+        width: 10rem;
+        margin-top: 20px;
+
+    }
+    #hbg{
+        display:flex;
+       color: aliceblue;
+    }
+    aside .icones{
+        align-self: flex-end;
+        cursor: pointer;
+        display: flex;
+        gap: 2px;
+     }
+    
 }
