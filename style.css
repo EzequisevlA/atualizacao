@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+.cover{
+    position:fixed;
+    height: 100%;
+    min-width: 100%;
+    margin-top: -3px;
+    z-index: -100;
+
+}
+.cover video{
+    max-height: 115%;
+    min-width: 100%;
+    z-index: -100;
+    position: fixed;
+}
+.logop{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.cover .capa{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(1, 1, 15, 0.692);
+    position: absolute;
+}
+header{
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+header ul li:hover{
+    background-color: black;
+}
+header ul img{
+    width: 100px;
+    height: 40px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+#Container{
+    color: rgb(98, 192, 255);
+    position: absolute;
+    font-weight:400;
+    font-size:xx-large;
+    display: inline-flex;
+    
+}
+
+
+#Container .textofixo{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 400;
+}
+#Container p{
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+aside{
+    position: absolute;
+    display:flex;
+    width: 2%;
+    height: 100%;
+    
+}
+aside .icones{
+   align-self: center;
+   cursor: pointer;
+}
+
+
+header ul li{
+    border: 1px solid white;
+    width: 5rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    color: aliceblue;
+}
+.typedtext{
+    font-weight: normal;
+    color: rgb(255, 115, 0);
+}
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink{
+    0%{background-color: #ccc;}
+    49%{background-color: #ccc;}
+    50%{background-color: transparent;}
+    99%{background-color: transparent;}
+    100%{background-color: #ccc;}
+}
