@@ -30,3 +30,20 @@ function erase(){
 document.addEventListener("DOMContentLoaded", function(){
  setTimeout(type, newtextDelay +250)
 })
+
+function clickmenu(){
+    if(menu.style.display =='block'){
+        menu.style.display ='none'
+        document.getElementById("hbg").innerHTML="menu"
+    }else{
+        menu.style.display = 'block'
+       document.getElementById("hbg").innerHTML="close"
+       document.getElementById("itens").style.borderStyle="hidden"
+       document.getElementById("itens2").style.borderStyle="hidden"
+       document.getElementById("itens3").style.borderStyle="hidden"
+       document.getElementById("cv").style.borderStyle="hidden"
+      
+    }
+     
+    
+}
