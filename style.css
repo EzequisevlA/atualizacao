@@ -119,6 +119,31 @@ header ul li{
     display: none;
 }
 
+#sob{
+    width: 50rem;
+    height: 30rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(117, 53, 0, 0.856);
+    border-radius: 20px;
+    color: aliceblue;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+#sob .text{
+    max-width: 15rem;
+    max-height: 30rem;
+    
+}
+#sob img{
+    max-width: 25rem;
+    max-height: 25rem;
+    margin-top: -8rem;
+    margin-left: -10rem;
+}
+
 
 
 @keyframes blink{
@@ -151,5 +176,24 @@ header ul li{
         display: flex;
         gap: 2px;
      }
+   #sob{
+     width: 23rem;
+     height: 34rem;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+   }
+   #sob img{
+    width: 19rem;
+    margin-bottom: -190px;
+    margin-right: -127px;
+   }
+   #sob .text {
+    max-width: 31rem;
+    max-height: 15rem;
+    }
+   #sob h1{
+    font-size: 30px;
+   }
     
 }
