@@ -1,5 +1,5 @@
 const typedtextspan = document.querySelector(".typedtext")
-const textarray=["Frontend", "Developer"]
+const textarray=["Front-end", "Developer"]
 const tipyngDelay = 200
 const erasingDelay = 100
 const newtextDelay = 2000
@@ -46,4 +46,13 @@ function clickmenu(){
     }
      
     
+}
+function about(){
+    if(sob.style.display=='flex'){
+        sob.style.display='none'
+        document.getElementById("itens2").style.backgroundColor='transparent'
+    }else{
+        sob.style.display='flex'
+        document.getElementById("itens2").style.backgroundColor='orange'
+    }
 }
